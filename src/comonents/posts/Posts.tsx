@@ -2,8 +2,6 @@ import {useEffect, useState} from 'react';
 import {IPost} from "../../interfaces/posrInterfase";
 import {postServise} from "../../servises/postServise";
 import {Post} from "../post/Post";
-import {Simulate} from "react-dom/test-utils";
-import click = Simulate.click;
 import {PostDetails} from "../postDetails/PostDetails";
 
 const Posts = () => {
