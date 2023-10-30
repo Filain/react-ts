@@ -1,7 +1,7 @@
-import React from 'react';
 import ReactDOM from 'react-dom/client';
+import {RouterProvider} from "react-router-dom";
 
-import {App} from './App';
+import {router} from "./routes";
 
 
 const root = ReactDOM.createRoot(
@@ -9,8 +9,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
 
-    <App />
-
+<RouterProvider router={router}/>
 );
 
 
