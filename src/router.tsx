@@ -4,9 +4,10 @@ import {CarsPages} from "./pages/CarsPages";
 
 let router = createBrowserRouter([
     {path:'', element:<MainLayout/>, children:[
-            {path:true, element:<Navigate to={'cars'}/>},
+            {index:true, element:<Navigate to={'cars'}/>},
             {path:'cars', element: <CarsPages/>}
         ]}
 ])
 
 export {router}
+
